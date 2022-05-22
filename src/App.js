@@ -6,6 +6,8 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
+// comment
+
 export default function App() {
   return (
     <Authenticator>
