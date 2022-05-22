@@ -6,7 +6,7 @@ import '@aws-amplify/ui-react/styles.css';
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
-// comment
+// comment right here
 
 export default function App() {
   return (
