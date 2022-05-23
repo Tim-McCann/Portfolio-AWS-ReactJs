@@ -88,19 +88,8 @@ export default function App() {
         note.image && <img src={note.image} style={{width: 400}} />
       }
     </div>
-  ))
-}
-      <div style={{marginBottom: 30}}>
-        {
-          notes.map(note => (
-            <div key={note.id || note.name}>
-              <h2>{note.name}</h2>
-              <p>{note.description}</p>
-              <button onClick={() => deleteNote(note)}>Delete note</button>
-            </div>
-          ))
-        }
-      </div>
+      ))
+      }
     </div>
     <button onClick={signOut}>Sign out</button>
         </main>
