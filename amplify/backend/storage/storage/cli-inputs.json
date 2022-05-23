@@ -1,0 +1,14 @@
+{
+  "resourceName": "storage",
+  "policyUUID": "f31b6129",
+  "bucketName": "portfolioawsreactjs9a915a1908524ca0857e98f1d4e2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
