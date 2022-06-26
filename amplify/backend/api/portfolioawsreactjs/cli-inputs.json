@@ -3,10 +3,11 @@
   "serviceConfiguration": {
     "apiName": "portfolioawsreactjs",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "C:\\Users\\BPM\\portfolio-aws-reactjs\\amplify\\backend\\api\\portfolioawsreactjs\\schema.graphql",
+    "gqlSchemaPath": "/home/tim/Portfolio-AWS-ReactJs/amplify/backend/api/portfolioawsreactjs/schema.graphql",
     "defaultAuthType": {
-      "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "mode": "AWS_IAM"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
   }
 }
