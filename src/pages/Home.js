@@ -1,5 +1,6 @@
 import React from 'react'
-import { EmailIcon, GithubIcon, LinkedInIcon } from '../components/Icons'
+import { EmailIcon, GithubIcon, LinkedInIcon } from '../components/Icons';
+import '../styles/Home.css';
 
 function Home() {
   return (

@@ -11695,7 +11695,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@*", "prop-types@^15.8.1":
+"prop-types@*", "prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -11892,6 +11892,11 @@
   "integrity" "sha512-rOFGh3KgC2Ot66DmVCcT1p8lVJCmmCjzGE5WK/KsyDFi43wpIbW1PYcr04cQ3mbF4LaIkY6SpK7k1DOgwtpUXA=="
   "resolved" "https://registry.npmjs.org/react-generate-context/-/react-generate-context-1.0.1.tgz"
   "version" "1.0.1"
+
+"react-intersection-observer@^8.26.2":
+  "integrity" "sha512-TYKh52Zc0Uptp5/b4N91XydfSGKubEhgZRtcg1rhTKABXijc4Sdr1uTp5lJ8TN27jwUsdXxjHXtHa0kPj704sw=="
+  "resolved" "https://registry.npmjs.org/react-intersection-observer/-/react-intersection-observer-8.34.0.tgz"
+  "version" "8.34.0"
 
 "react-is@^16.12.0 || ^17.0.0", "react-is@^17.0.1":
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
@@ -12096,6 +12101,22 @@
     "invariant" "^2.2.4"
     "tslib" "^2.0.0"
 
+"react-vertical-timeline-component@^3.5.2":
+  "integrity" "sha512-Wcb85NUvmygLFF45bfxVGU4AyHOBjdQY9IqB8uLG1jXWvIthkQft1ZJOGirIlYHSYnDl9sOs8ItL1sNtqA7GUg=="
+  "resolved" "https://registry.npmjs.org/react-vertical-timeline-component/-/react-vertical-timeline-component-3.5.2.tgz"
+  "version" "3.5.2"
+  dependencies:
+    "classnames" "^2.2.6"
+    "prop-types" "^15.7.2"
+    "react-intersection-observer" "^8.26.2"
+
+"react@^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0", "react@^16.8 || ^17.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>= 16.7.0", "react@>= 16.8.0", "react@>=16", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.8", "react@>=16.9.0":
+  "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
+  "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
+  "version" "18.1.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+
 "react@^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
@@ -12103,13 +12124,6 @@
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
-
-"react@^16.8 || ^17.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>= 16.7.0", "react@>= 16.8.0", "react@>=16", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.8", "react@>=16.9.0":
-  "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
-  "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
-  "version" "18.1.0"
-  dependencies:
-    "loose-envify" "^1.1.0"
 
 "readable-stream@^2.0.1":
   "integrity" "sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw=="
