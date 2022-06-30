@@ -2,6 +2,8 @@ import React from 'react'
 import { EmailIcon, GithubIcon, LinkedInIcon } from '../components/Icons';
 import '../styles/Home.css';
 
+
+
 function Home() {
   return (
     <div className='home'>
@@ -12,10 +14,10 @@ function Home() {
         <div className='prompt'>
           <p>
           Software Engineer/Developer
-          </p>
-        <LinkedInIcon />
-        <GithubIcon />
-        <EmailIcon />
+          </p>  
+          <LinkedInIcon />
+          <GithubIcon />
+          {/* <EmailIcon /> */}
         </div>
       </div>
       <div className='skills'>
