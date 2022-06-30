@@ -7,11 +7,11 @@ function Home() {
     <div className='home'>
       <div className='about'>
         <h2>
-          Hello, my name is Tim
+          Tim McCann
         </h2>
         <div className='prompt'>
           <p>
-          A software engineer/developer
+          Software Engineer/Developer
           </p>
         <LinkedInIcon />
         <GithubIcon />

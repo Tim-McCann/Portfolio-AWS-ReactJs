@@ -10,10 +10,10 @@ function Experience() {
         <VerticalTimeline lineColor='blue'>
             <VerticalTimelineElement 
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#013d5f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #013d5f' }}
             date="2020 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
+            iconStyle={{ background: '#013d5f', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
             icon={<LaptopIcon />} >
                 <h3 className="vertical-timeline-element-title">Software Engineer, Nokia</h3>
                     <p>• Helping create a developer portal for internal use and developers in Nokia to access products documentation, sandbox, and other tools in a centralized area. Used ReactJS frontend, Django/Python backend, and Docker, Helm, and Kubernetes as pipeline </p>
@@ -33,10 +33,10 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#013d5f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #013d5f' }}
             date="2018-2020"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
+            iconStyle={{ background: '#013d5f', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
             icon={<VideoIcon />} >
                 <h3 className="vertical-timeline-element-title">Content Media Lead, Nokia</h3>
                 <p>• Designed and delivered video content for various purposes including sales training, product launches & updates, promotional material, and other needs </p>
@@ -46,10 +46,10 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#013d5f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #013d5f' }}
             date="2017-2017"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
+            iconStyle={{ background: '#013d5f', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
             icon={<WorkIcon />} >
                 <h3 className="vertical-timeline-element-title">IT Support, Valley View School District</h3>
                 <p>• Prepare distribution of Chromebooks, such as labeling, recording and moving inventory</p>
@@ -57,10 +57,10 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement 
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#013d5f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #013d5f' }}
             date="2016-2017"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
+            iconStyle={{ background: '#013d5f', color: '#fff', paddingLeft: '24px', paddingTop:'15px' }}
             icon={<WorkIcon />} >
                 <h3 className="vertical-timeline-element-title">IT Support, Plainfield School District</h3>
                 <p>• Help remove and replace networking equipment throughout schools</p>
